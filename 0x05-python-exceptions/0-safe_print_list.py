@@ -7,5 +7,5 @@ def safe_print_list(my_list=[], x=0):
         return x
     except:
         print()
-        x = len(my_list)
-    return x
+        pass
+    return len(my_list)
