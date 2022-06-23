@@ -6,6 +6,9 @@ Singly linked list
 
 
 class Node:
+    """
+    A parent class
+    """
     def __init__(self, data, next_node=None):
         self.data = data
         self.next_node = next_node
@@ -31,12 +34,10 @@ class Node:
         self.__next_node = value
 
 
-"""
-class singly linked lists
-"""
-
-
 class SinglyLinkedList:
+    """
+    class singly linked lists
+    """
     def __str__(self):
         rtn = ""
         ptr = self.__head
