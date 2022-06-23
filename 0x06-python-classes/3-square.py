@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-"""                                                                                 
-Area of a square                                                                    
-""" 
+"""
+Area of a square
+"""
 
 
 class Square:
