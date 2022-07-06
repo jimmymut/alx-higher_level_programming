@@ -2,7 +2,6 @@
 """Inhelts"""
 
 
-
 class MyInt(int):
     """ Class that inherits from class int"""
 
